@@ -28,7 +28,6 @@ const nuevoModulo = 21 % 5 === 1;
 function devolverString(str) {
   // "Return" la string provista: str
   // Tu código:
-  //str('Hola');
   return str;
 }
 
@@ -36,7 +35,6 @@ function suma(x, y) {
   // "x" e "y" son números
   // Suma "x" e "y" juntos y devuelve el valor
   // Tu código:
-  //var x=3, y=2;
   var suma = x+y;
   return suma;
 
@@ -45,7 +43,6 @@ function suma(x, y) {
 function resta(x, y) {
   // Resta "y" de "x" y devuelve el valor
   // Tu código:
-  //var x=3, y=2;
   var resta = x-y;
   return resta;
 }
@@ -245,7 +242,7 @@ function esVocal(letra){
   }
   if(letra==='a'||letra==='e'||letra==='i'||letra==='o'||letra==='u'){
     return "Es vocal";
-  } return "Dato incorrecto";t
+  } return "Dato incorrecto";
  
   
 }
